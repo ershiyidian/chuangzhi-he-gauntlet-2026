@@ -1,0 +1,90 @@
+{"text": "This is ridiculous, I have waited all day and nobody helped.", "label": "angry"}
+{"text": "I am furious that your service broke again.", "label": "angry"}
+{"text": "This is absolutely unacceptable! I demand a refund now!", "label": "angry"}
+{"text": "I have never been treated so poorly by a company.", "label": "angry"}
+{"text": "I do not understand what this message means.", "label": "confused"}
+{"text": "I'm not sure which option I should choose.", "label": "confused"}
+{"text": "This makes no sense to me at all.", "label": "confused"}
+{"text": "I'm worried someone may have accessed my account.", "label": "worried"}
+{"text": "This situation makes me nervous because money is missing.", "label": "worried"}
+{"text": "I'm afraid I might lose all my data if I click the wrong thing.", "label": "worried"}
+{"text": "Great, another failed payment. Fantastic service.", "label": "sarcastic"}
+{"text": "Amazing, the app crashed right when I needed it most.", "label": "sarcastic"}
+{"text": "Oh wonderful, my order is delayed for the third time.", "label": "sarcastic"}
+{"text": "Perfect timing, the website went down during checkout.", "label": "sarcastic"}
+{"text": "Thanks, that solved my problem quickly.", "label": "grateful"}
+{"text": "I appreciate your help with this.", "label": "grateful"}
+{"text": "Thank you so much for resolving this so efficiently.", "label": "grateful"}
+{"text": "I expected better and feel let down.", "label": "disappointed"}
+{"text": "The result is not what I hoped for.", "label": "disappointed"}
+{"text": "I had high hopes but the quality did not meet them.", "label": "disappointed"}
+{"text": "I need this fixed immediately, it cannot wait.", "label": "urgent"}
+{"text": "This is an emergency, please respond right away.", "label": "urgent"}
+{"text": "Time-sensitive issue: my flight leaves in two hours.", "label": "urgent"}
+{"text": "I would like to know more about your pricing plans.", "label": "neutral"}
+{"text": "Can you send me the document when it's ready?", "label": "neutral"}
+{"text": "Please update my contact information in your system.", "label": "neutral"}
+{"text": "Let me know if you need anything else from my side.", "label": "neutral"}
+{"text": "I hope you can resolve this for me today.", "label": "hopeful"}
+{"text": "Fingers crossed the issue can be fixed quickly.", "label": "hopeful"}
+{"text": "I'm optimistic that your team can sort this out.", "label": "hopeful"}
+{"text": "I've explained this three times already and nothing changed.", "label": "frustrated"}
+{"text": "Every time I call I get a different answer.", "label": "frustrated"}
+{"text": "Going in circles here, nobody seems to know what to do.", "label": "frustrated"}
+{"text": "Finally, someone who actually understands the problem.", "label": "relieved"}
+{"text": "So glad that worked; I was starting to panic.", "label": "relieved"}
+{"text": "What a relief, I thought all my data was lost.", "label": "relieved"}
+{"text": "Sorry for the trouble, I think the mistake was on my end.", "label": "apologetic"}
+{"text": "I apologize for the confusion I caused earlier.", "label": "apologetic"}
+{"text": "My bad, I should have read the instructions more carefully.", "label": "apologetic"}
+{"text": "I'm interested in learning more about how this works.", "label": "curious"}
+{"text": "Can you explain why the system behaves this way?", "label": "curious"}
+{"text": "I'd like to understand the reasoning behind this policy.", "label": "curious"}
+{"text": "I want to speak to your manager right now.", "label": "demanding"}
+{"text": "Get this resolved today or I will take my business elsewhere.", "label": "demanding"}
+{"text": "You need to escalate this to the highest priority immediately.", "label": "demanding"}
+{"text": "I expect a full refund processed by the end of the day.", "label": "demanding"}
+{"text": "Whatever, just do whatever you need to do.", "label": "indifferent"}
+{"text": "I don't really care how you fix it, just make it work.", "label": "indifferent"}
+{"text": "It doesn't matter to me which option you pick.", "label": "indifferent"}
+{"text": "Meh, I guess I'll wait and see what happens.", "label": "indifferent"}
+{"text": "I just got the news that my order will arrive early! So happy!", "label": "excited"}
+{"text": "This is the best thing that happened all week!", "label": "excited"}
+{"text": "I can't wait to start using my new product tomorrow!", "label": "excited"}
+{"text": "Yes! Finally! The launch date is confirmed!", "label": "excited"}
+{"text": "My account has been hacked and I'm panicking.", "label": "anxious"}
+{"text": "I can't relax until this issue is fixed.", "label": "anxious"}
+{"text": "This situation is giving me so much anxiety.", "label": "anxious"}
+{"text": "I'm so worried I can't focus on anything else.", "label": "anxious"}
+{"text": "This solution works perfectly for my needs.", "label": "satisfied"}
+{"text": "I'm quite happy with how things turned out.", "label": "satisfied"}
+{"text": "Everything went smoothly, I'm pleased.", "label": "satisfied"}
+{"text": "Thank you, this meets my expectations exactly.", "label": "satisfied"}
+{"text": "Are you sure this will actually solve my problem?", "label": "doubtful"}
+{"text": "I don't believe this is going to work.", "label": "doubtful"}
+{"text": "This doesn't seem like a permanent fix.", "label": "doubtful"}
+{"text": "I have my doubts about this approach.", "label": "doubtful"}
+{"text": "I'm really sad about losing all my data.", "label": "sad"}
+{"text": "This news has really brought me down.", "label": "sad"}
+{"text": "I feel heartbroken about this situation.", "label": "sad"}
+{"text": "Nothing seems to be going right lately.", "label": "sad"}
+{"text": "I'm proud that I was able to solve this on my own.", "label": "proud"}
+{"text": "Thank you for recognizing my contribution.", "label": "proud"}
+{"text": "Our team did an amazing job handling the crisis.", "label": "proud"}
+{"text": "I'm proud to be a long-time user of your service.", "label": "proud"}
+{"text": "I'm embarrassed that I made such a simple mistake.", "label": "ashamed"}
+{"text": "I feel terrible about the trouble I've caused.", "label": "ashamed"}
+{"text": "I should have known better than to click that link.", "label": "ashamed"}
+{"text": "I'm ashamed that I fell for this scam.", "label": "ashamed"}
+{"text": "I feel like no one is listening to my concerns.", "label": "lonely"}
+{"text": "Nobody understands what I'm going through with this issue.", "label": "lonely"}
+{"text": "I feel so alone in dealing with this problem.", "label": "lonely"}
+{"text": "Even customer support seems to ignore me.", "label": "lonely"}
+{"text": "I think someone might be tracking my online activity.", "label": "suspicious"}
+{"text": "This offer seems too good to be true.", "label": "suspicious"}
+{"text": "I'm not sure if this email from you is legitimate.", "label": "suspicious"}
+{"text": "Something doesn't feel right about this transaction.", "label": "suspicious"}
+{"text": "I have too many error messages and don't know where to start.", "label": "overwhelmed"}
+{"text": "This process is just too complicated for me.", "label": "overwhelmed"}
+{"text": "Between work and this issue, I'm completely swamped.", "label": "overwhelmed"}
+{"text": "I feel like I'm drowning in all these problems.", "label": "overwhelmed"}

@@ -1,0 +1,49 @@
+{"text": "I need to cancel the order before you ship it.", "label": "cancel_order"}
+{"text": "Please stop my purchase; I do not want it anymore.", "label": "cancel_order"}
+{"text": "Cancel order number 4512 immediately.", "label": "cancel_order"}
+{"text": "I changed my mind; void this transaction.", "label": "cancel_order"}
+{"text": "The item arrived damaged and cracked.", "label": "damaged_item"}
+{"text": "My package came broken.", "label": "damaged_item"}
+{"text": "Product was delivered in pieces, completely destroyed.", "label": "damaged_item"}
+{"text": "I cannot log in to my account.", "label": "login_failure"}
+{"text": "Sign-in keeps failing on the app.", "label": "login_failure"}
+{"text": "Authentication error every time I enter my password.", "label": "login_failure"}
+{"text": "Can't access my dashboard; login loop.", "label": "login_failure"}
+{"text": "I forgot my password and need a reset.", "label": "password_reset"}
+{"text": "Please send password reset instructions.", "label": "password_reset"}
+{"text": "Need to create a new password; I lost the old one.", "label": "password_reset"}
+{"text": "The ATM swallowed my card.", "label": "card_swallowed"}
+{"text": "Cash machine kept my bank card.", "label": "card_swallowed"}
+{"text": "ATM retained my card and won't return it.", "label": "card_swallowed"}
+{"text": "My phone was stolen and I need to protect my account.", "label": "lost_or_stolen_phone"}
+{"text": "I lost the mobile with my banking app installed.", "label": "lost_or_stolen_phone"}
+{"text": "Someone took my smartphone with all my financial apps.", "label": "lost_or_stolen_phone"}
+{"text": "I have sudden chest pain and cannot breathe well.", "label": "emergency_symptom"}
+{"text": "Someone fainted and is not responding clearly.", "label": "emergency_symptom"}
+{"text": "Severe allergic reaction with throat swelling.", "label": "emergency_symptom"}
+{"text": "The president announced a new law.", "label": "politics"}
+{"text": "Parliament debated the election bill.", "label": "politics"}
+{"text": "The senate voted on the infrastructure package.", "label": "politics"}
+{"text": "Where is my package? I need a tracking update.", "label": "order_status"}
+{"text": "Has my order shipped yet?", "label": "order_status"}
+{"text": "Can you tell me the delivery status of my recent order?", "label": "order_status"}
+{"text": "When will I get my money back for the returned item?", "label": "refund_status"}
+{"text": "I returned the product but the refund hasn't appeared.", "label": "refund_status"}
+{"text": "Refund was issued by the seller but I don't see it.", "label": "refund_status"}
+{"text": "My account is locked after too many failed attempts.", "label": "account_locked"}
+{"text": "System says my user profile has been suspended.", "label": "account_locked"}
+{"text": "Can't sign in; account temporarily disabled.", "label": "account_locked"}
+{"text": "The dashboard is loading extremely slowly today.", "label": "performance_slow"}
+{"text": "Every page takes minutes to render.", "label": "performance_slow"}
+{"text": "The app is nearly unusable due to lag.", "label": "performance_slow"}
+{"text": "Reports are taking forever to generate.", "label": "performance_slow"}
+{"text": "I need to schedule a doctor's visit for next week.", "label": "appointment_booking"}
+{"text": "Can I book a checkup for Friday?", "label": "appointment_booking"}
+{"text": "I want to make an appointment with my physician.", "label": "appointment_booking"}
+{"text": "Stock market rallied after the interest rate decision.", "label": "finance"}
+{"text": "Oil prices surged amid geopolitical tensions.", "label": "finance"}
+{"text": "The company reported record quarterly earnings.", "label": "finance"}
+{"text": "The home team won the championship in overtime.", "label": "sports"}
+{"text": "A new world record was set in the marathon.", "label": "sports"}
+{"text": "The tennis player announced retirement after the tournament.", "label": "sports"}
+{"text": "Olympic committee selected the next host city.", "label": "sports"}

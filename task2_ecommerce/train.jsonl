@@ -1,0 +1,90 @@
+{"text": "Where is my order? I want to know if it shipped.", "label": "order_status"}
+{"text": "Can you check the current status of my package?", "label": "order_status"}
+{"text": "Has my order been dispatched yet?", "label": "order_status"}
+{"text": "I need a tracking update for my recent purchase.", "label": "order_status"}
+{"text": "Please cancel my order before it ships.", "label": "cancel_order"}
+{"text": "I changed my mind and want to stop this purchase.", "label": "cancel_order"}
+{"text": "Cancel the order I placed ten minutes ago.", "label": "cancel_order"}
+{"text": "I want to send this item back for a return.", "label": "return_item"}
+{"text": "How do I return a jacket that does not fit?", "label": "return_item"}
+{"text": "The shoes are too big; please give me return instructions.", "label": "return_item"}
+{"text": "Need to return an item that arrived differently than described.", "label": "return_item"}
+{"text": "When will I receive the money back for my returned item?", "label": "refund_status"}
+{"text": "I need an update on my refund.", "label": "refund_status"}
+{"text": "How long until the refund for my returned order processes?", "label": "refund_status"}
+{"text": "The product arrived broken and unusable.", "label": "damaged_item"}
+{"text": "My package came with the glass shattered.", "label": "damaged_item"}
+{"text": "Item delivered with a crack and scratches all over.", "label": "damaged_item"}
+{"text": "You sent me the wrong color and size.", "label": "wrong_item_received"}
+{"text": "The item delivered is not what I ordered.", "label": "wrong_item_received"}
+{"text": "I got someone else's order in my box.", "label": "wrong_item_received"}
+{"text": "Package label was correct but the contents are not mine.", "label": "wrong_item_received"}
+{"text": "My delivery is late and tracking has not moved.", "label": "delivery_delay"}
+{"text": "The parcel should have arrived last week.", "label": "delivery_delay"}
+{"text": "Estimated delivery was three days ago and still no package.", "label": "delivery_delay"}
+{"text": "My payment failed when I tried to buy the item.", "label": "payment_problem"}
+{"text": "The checkout page charged my card but order was not created.", "label": "payment_problem"}
+{"text": "Payment went through twice but order shows as cancelled.", "label": "payment_problem"}
+{"text": "Checkout crashed after I submitted payment, no order confirmation.", "label": "payment_problem"}
+{"text": "Can I exchange this shirt for a larger size?", "label": "exchange_request"}
+{"text": "I need to swap my purchase for a different color.", "label": "exchange_request"}
+{"text": "Want to exchange the item instead of returning it.", "label": "exchange_request"}
+{"text": "One item is missing from my shipment.", "label": "missing_item"}
+{"text": "I ordered three things but only two arrived in the box.", "label": "missing_item"}
+{"text": "The package was sealed but an item was not inside.", "label": "missing_item"}
+{"text": "My discount code is not applying at checkout.", "label": "coupon_not_working"}
+{"text": "Promo code says invalid even though it hasn't expired.", "label": "coupon_not_working"}
+{"text": "I entered the coupon but the price didn't change.", "label": "coupon_not_working"}
+{"text": "I want to permanently delete my customer account.", "label": "account_deletion"}
+{"text": "Please remove all my data and close my shopping account.", "label": "account_deletion"}
+{"text": "How do I delete my profile from your platform?", "label": "account_deletion"}
+{"text": "I need to update the delivery address for my order.", "label": "shipping_address_change"}
+{"text": "Can I change where my package is being sent?", "label": "shipping_address_change"}
+{"text": "I entered the wrong address at checkout and need to fix it.", "label": "shipping_address_change"}
+{"text": "Moving to a new place, need to redirect the shipment.", "label": "shipping_address_change"}
+{"text": "Does this laptop come with a warranty?", "label": "product_question"}
+{"text": "What are the dimensions of this bookshelf?", "label": "product_question"}
+{"text": "Is this item compatible with the 2024 model?", "label": "product_question"}
+{"text": "How much money is left on my gift card?", "label": "gift_card_balance"}
+{"text": "Check the remaining balance on my store credit.", "label": "gift_card_balance"}
+{"text": "Can you tell me my gift card amount?", "label": "gift_card_balance"}
+{"text": "I need the size chart for your jackets. Where can I find it?", "label": "size_guide_request"}
+{"text": "Can you send me the measurements for a size medium dress?", "label": "size_guide_request"}
+{"text": "What are the dimensions of your large T-shirts?", "label": "size_guide_request"}
+{"text": "I'm unsure what size to order; is there a size guide?", "label": "size_guide_request"}
+{"text": "When will the blue sneakers be back in stock?", "label": "out_of_stock_inquiry"}
+{"text": "I wanted to order but it says 'currently unavailable'.", "label": "out_of_stock_inquiry"}
+{"text": "Can you notify me when this item is restocked?", "label": "out_of_stock_inquiry"}
+{"text": "Why is the product page showing out of stock?", "label": "out_of_stock_inquiry"}
+{"text": "My laptop stopped working after 6 months. Can I claim warranty?", "label": "warranty_claim"}
+{"text": "How to file a warranty claim for a defective product?", "label": "warranty_claim"}
+{"text": "The item broke within warranty period. What's the process?", "label": "warranty_claim"}
+{"text": "I need to activate my warranty for a TV I bought.", "label": "warranty_claim"}
+{"text": "How many loyalty points do I have in my account?", "label": "loyalty_points_query"}
+{"text": "I want to redeem my reward points for a discount.", "label": "loyalty_points_query"}
+{"text": "My points balance seems incorrect; can you check?", "label": "loyalty_points_query"}
+{"text": "How do loyalty points work on your website?", "label": "loyalty_points_query"}
+{"text": "I found this product cheaper at another store. Do you match prices?", "label": "price_match_request"}
+{"text": "Can you beat a competitor's price for the same item?", "label": "price_match_request"}
+{"text": "Your price is higher than Amazon. Will you match it?", "label": "price_match_request"}
+{"text": "I'd like to request a price adjustment after purchase.", "label": "price_match_request"}
+{"text": "I need to order 500 units of this product. Do you offer bulk pricing?", "label": "bulk_order_inquiry"}
+{"text": "Can I get a wholesale discount for large quantities?", "label": "bulk_order_inquiry"}
+{"text": "We are interested in bulk purchase. Who should I contact?", "label": "bulk_order_inquiry"}
+{"text": "What's the minimum order quantity for wholesale pricing?", "label": "bulk_order_inquiry"}
+{"text": "I want to cancel my monthly subscription box.", "label": "subscription_cancel"}
+{"text": "How to turn off auto-renewal for my subscription?", "label": "subscription_cancel"}
+{"text": "Cancel my premium membership effective immediately.", "label": "subscription_cancel"}
+{"text": "I no longer want to receive the weekly delivery. Please cancel.", "label": "subscription_cancel"}
+{"text": "Can you add gift wrapping to my order?", "label": "gift_wrap_request"}
+{"text": "I'm sending this as a gift; please wrap it nicely.", "label": "gift_wrap_request"}
+{"text": "Is there an option for gift packaging during checkout?", "label": "gift_wrap_request"}
+{"text": "How do I request gift wrap for multiple items in one order?", "label": "gift_wrap_request"}
+{"text": "Can you send me an invoice for my recent order?", "label": "invoice_request"}
+{"text": "I need a VAT invoice for this purchase.", "label": "invoice_request"}
+{"text": "Where can I download the invoice from my account?", "label": "invoice_request"}
+{"text": "The invoice in my email is incorrect. Please resend.", "label": "invoice_request"}
+{"text": "Someone left a fake review on my product listing. How to report?", "label": "review_dispute"}
+{"text": "I want to dispute a negative review I received.", "label": "review_dispute"}
+{"text": "A review contains offensive content. Please remove it.", "label": "review_dispute"}
+{"text": "My positive review was not published. Why?", "label": "review_dispute"}

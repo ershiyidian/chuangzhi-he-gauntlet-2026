@@ -1,0 +1,90 @@
+{"text": "The prime minister announced a new cabinet after the election.", "label": "politics"}
+{"text": "Lawmakers debated the national budget in parliament.", "label": "politics"}
+{"text": "Opposition parties criticized the government's foreign policy.", "label": "politics"}
+{"text": "The senate approved a new voting rights bill today.", "label": "politics"}
+{"text": "Stocks rose after the central bank held interest rates steady.", "label": "finance"}
+{"text": "The company reported higher quarterly profits.", "label": "finance"}
+{"text": "Oil prices dropped sharply amid global demand concerns.", "label": "finance"}
+{"text": "A startup released a new artificial intelligence chip.", "label": "technology"}
+{"text": "Researchers warned about a major software security flaw.", "label": "technology"}
+{"text": "The latest smartphone features a foldable display.", "label": "technology"}
+{"text": "Electric vehicle battery technology reached a new milestone.", "label": "technology"}
+{"text": "The national team won the final after extra time.", "label": "sports"}
+{"text": "A tennis champion retired after the tournament.", "label": "sports"}
+{"text": "The Olympic committee announced new qualifying rules.", "label": "sports"}
+{"text": "Hospitals reported a rise in flu cases this winter.", "label": "health"}
+{"text": "A new vaccine trial showed promising results.", "label": "health"}
+{"text": "Study links processed foods to increased cancer risk.", "label": "health"}
+{"text": "Scientists discovered evidence of water on a distant moon.", "label": "science"}
+{"text": "A telescope captured images of a newly forming star.", "label": "science"}
+{"text": "Climate researchers published a major report on rising sea levels.", "label": "science"}
+{"text": "A fossil discovery in Africa rewrites human evolution timeline.", "label": "science"}
+{"text": "The blockbuster film broke box office records this weekend.", "label": "entertainment"}
+{"text": "A popular music festival announced its lineup for this summer.", "label": "entertainment"}
+{"text": "The award-winning actress will star in a new drama series.", "label": "entertainment"}
+{"text": "The government proposed changes to the national curriculum.", "label": "education"}
+{"text": "University admissions dropped for the third consecutive year.", "label": "education"}
+{"text": "A new scholarship program targets students from rural areas.", "label": "education"}
+{"text": "Massive wildfire destroys thousands of acres of forest.", "label": "environment"}
+{"text": "UN summit calls for urgent action on plastic pollution.", "label": "environment"}
+{"text": "Endangered species population shows signs of recovery.", "label": "environment"}
+{"text": "Police arrested a suspect in the bank robbery case.", "label": "crime"}
+{"text": "Cybercrime rates have doubled in the past year, report says.", "label": "crime"}
+{"text": "High-profile fraud trial begins at the federal courthouse.", "label": "crime"}
+{"text": "The merger between two tech giants faces regulatory scrutiny.", "label": "business"}
+{"text": "A major retailer announced plans to close 200 stores.", "label": "business"}
+{"text": "Startup raises record funding round for green energy.", "label": "business"}
+{"text": "Supply chain disruptions continue to affect global trade.", "label": "business"}
+{"text": "Hurricane warning issued for the southeastern coast.", "label": "weather"}
+{"text": "Record-breaking heatwave expected to continue through the weekend.", "label": "weather"}
+{"text": "Severe thunderstorms cause widespread power outages.", "label": "weather"}
+{"text": "Airlines cancel hundreds of flights due to winter storm.", "label": "travel"}
+{"text": "New high-speed rail line to connect three major cities.", "label": "travel"}
+{"text": "Tourism industry rebounds to pre-pandemic levels.", "label": "travel"}
+{"text": "World's best restaurant announced in annual culinary awards.", "label": "food"}
+{"text": "Food safety agency recalls contaminated produce nationwide.", "label": "food"}
+{"text": "Plant-based meat alternatives see surge in supermarket sales.", "label": "food"}
+{"text": "NASA successfully launched a new Mars exploration rover.", "label": "space"}
+{"text": "Private space company completes first commercial moon landing.", "label": "space"}
+{"text": "International Space Station crew returns safely to Earth.", "label": "space"}
+{"text": "New telescope discovers potentially habitable exoplanet.", "label": "space"}
+{"text": "Housing prices continue to surge in major metropolitan areas.", "label": "real_estate"}
+{"text": "Mortgage rates reach all-time low, boosting home sales.", "label": "real_estate"}
+{"text": "Commercial real estate market faces slowdown due to remote work.", "label": "real_estate"}
+{"text": "New city zoning laws aim to increase affordable housing availability.", "label": "real_estate"}
+{"text": "Farmers report bumper wheat harvest after favorable weather.", "label": "agriculture"}
+{"text": "Agricultural drones revolutionize crop monitoring on large farms.", "label": "agriculture"}
+{"text": "Government announces new subsidies for organic farming.", "label": "agriculture"}
+{"text": "Drought threatens corn yields in the Midwest.", "label": "agriculture"}
+{"text": "Designer fashion week showcases sustainable materials trend.", "label": "fashion"}
+{"text": "Fast fashion brand faces criticism over labor practices.", "label": "fashion"}
+{"text": "Vintage clothing sales skyrocket among younger consumers.", "label": "fashion"}
+{"text": "Luxury brand launches first virtual clothing line for avatars.", "label": "fashion"}
+{"text": "Electric pickup truck sales exceed expectations in Q2.", "label": "automotive"}
+{"text": "Major automaker recalls vehicles due to faulty airbag sensors.", "label": "automotive"}
+{"text": "Self-driving taxi service expands to third major city.", "label": "automotive"}
+{"text": "New emission regulations push automakers toward hybrid technology.", "label": "automotive"}
+{"text": "Global religious leaders gather for interfaith peace summit.", "label": "religion"}
+{"text": "New study reveals shift in religious affiliation among young adults.", "label": "religion"}
+{"text": "Centuries-old cathedral restoration completed ahead of schedule.", "label": "religion"}
+{"text": "Supreme Court rules on religious freedom case regarding school prayer.", "label": "religion"}
+{"text": "Billionaire pledges half of fortune to climate change initiatives.", "label": "philanthropy"}
+{"text": "Community foundation awards grants to local education programs.", "label": "philanthropy"}
+{"text": "Online giving platform sees record donations during disaster relief.", "label": "philanthropy"}
+{"text": "Corporate philanthropy shifts focus to racial equity programs.", "label": "philanthropy"}
+{"text": "Landmark supreme court ruling changes digital privacy protections.", "label": "law"}
+{"text": "New data protection law imposes strict penalties on tech companies.", "label": "law"}
+{"text": "International court issues warrant for human rights violations.", "label": "law"}
+{"text": "Legal industry sees rapid adoption of AI for document review.", "label": "law"}
+{"text": "Solar power becomes cheapest electricity source in history.", "label": "energy"}
+{"text": "Nuclear fusion experiment achieves net energy gain milestone.", "label": "energy"}
+{"text": "Oil producing nations agree to gradual production increase.", "label": "energy"}
+{"text": "Wind farm project off coast receives final regulatory approval.", "label": "energy"}
+{"text": "Defense department unveils next-generation fighter jet prototype.", "label": "defense"}
+{"text": "Military spending increases amid rising geopolitical tensions.", "label": "defense"}
+{"text": "New cybersecurity unit formed to protect critical infrastructure.", "label": "defense"}
+{"text": "Arms treaty negotiations stall over verification disagreements.", "label": "defense"}
+{"text": "Highly anticipated video game sequel breaks pre-order records.", "label": "gaming"}
+{"text": "Esports tournament prize pool reaches new all-time high.", "label": "gaming"}
+{"text": "Mobile gaming revenue surpasses console and PC combined.", "label": "gaming"}
+{"text": "Game streaming platform introduces creator monetization changes.", "label": "gaming"}

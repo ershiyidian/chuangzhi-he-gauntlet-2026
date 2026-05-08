@@ -1,0 +1,89 @@
+{"text": "I cannot sign in even with the correct email.", "label": "login_failure"}
+{"text": "The login page keeps sending me back to the start.", "label": "login_failure"}
+{"text": "Authentication fails every time I try to log into the dashboard.", "label": "login_failure"}
+{"text": "My credentials are correct but the system rejects them.", "label": "login_failure"}
+{"text": "I forgot my password and need to reset it.", "label": "password_reset"}
+{"text": "Send me a password reset link.", "label": "password_reset"}
+{"text": "Can't remember my password; help me create a new one.", "label": "password_reset"}
+{"text": "My account is locked after too many attempts.", "label": "account_locked"}
+{"text": "It says my user account has been suspended or locked.", "label": "account_locked"}
+{"text": "Account disabled due to suspicious activity; need it unlocked.", "label": "account_locked"}
+{"text": "I found a bug where the dashboard crashes.", "label": "bug_report"}
+{"text": "The app freezes every time I upload a file.", "label": "bug_report"}
+{"text": "Clicking the save button deletes all my data.", "label": "bug_report"}
+{"text": "When I filter by date, the results are always empty.", "label": "bug_report"}
+{"text": "Can you add dark mode to the product?", "label": "feature_request"}
+{"text": "I would like a new option to export filtered reports.", "label": "feature_request"}
+{"text": "It would be great to have a bulk delete feature.", "label": "feature_request"}
+{"text": "The API returns 500 when I call the users endpoint.", "label": "api_error"}
+{"text": "Our integration fails with a 401 API response.", "label": "api_error"}
+{"text": "Rate limiting is blocking all our API requests suddenly.", "label": "api_error"}
+{"text": "The dashboard is extremely slow today.", "label": "performance_slow"}
+{"text": "Reports take several minutes to load.", "label": "performance_slow"}
+{"text": "Every page takes over 30 seconds to render after the update.", "label": "performance_slow"}
+{"text": "The app is nearly unusable due to extreme lag.", "label": "performance_slow"}
+{"text": "I need access to the admin panel but permission is denied.", "label": "permission_access"}
+{"text": "Please grant me rights to view the billing page.", "label": "permission_access"}
+{"text": "Can't open the team settings; it says insufficient permissions.", "label": "permission_access"}
+{"text": "I was overcharged on my last invoice.", "label": "billing_inquiry"}
+{"text": "Can you explain the extra line item on my bill?", "label": "billing_inquiry"}
+{"text": "My subscription price increased without notice.", "label": "billing_inquiry"}
+{"text": "How can I download all my stored data?", "label": "data_export"}
+{"text": "I need a copy of my account history for compliance.", "label": "data_export"}
+{"text": "Export all my records to a CSV file please.", "label": "data_export"}
+{"text": "The Slack integration stopped posting notifications.", "label": "integration_issue"}
+{"text": "Google Calendar sync is broken since last week.", "label": "integration_issue"}
+{"text": "Third-party plugin no longer connects to your service.", "label": "integration_issue"}
+{"text": "I just signed up and don't know where to start.", "label": "onboarding_help"}
+{"text": "Is there a tutorial for new users?", "label": "onboarding_help"}
+{"text": "How do I set up my first project on your platform?", "label": "onboarding_help"}
+{"text": "The mobile app crashes on startup every time.", "label": "mobile_app_issue"}
+{"text": "iOS app is not showing any notifications.", "label": "mobile_app_issue"}
+{"text": "Android version keeps logging me out automatically.", "label": "mobile_app_issue"}
+{"text": "Can't attach photos in the mobile app chat.", "label": "mobile_app_issue"}
+{"text": "I lost my phone and can't get the 2FA code.", "label": "two_factor_auth"}
+{"text": "Two-factor authentication code never arrives via SMS.", "label": "two_factor_auth"}
+{"text": "How do I disable two-factor temporarily?", "label": "two_factor_auth"}
+{"text": "I want to switch from the basic to the pro plan.", "label": "upgrade_plan"}
+{"text": "How do I upgrade my subscription tier?", "label": "upgrade_plan"}
+{"text": "Need more seats on my current plan; how to upgrade?", "label": "upgrade_plan"}
+{"text": "I'm trying to set up single sign-on but it's not working.", "label": "sso_configuration"}
+{"text": "How do I configure SSO with our identity provider?", "label": "sso_configuration"}
+{"text": "Our company uses Okta for SSO; can you integrate?", "label": "sso_configuration"}
+{"text": "SSO login redirects to error page during setup.", "label": "sso_configuration"}
+{"text": "I'm not receiving any email notifications from the app.", "label": "email_notifications_not_working"}
+{"text": "Password reset email never arrives.", "label": "email_notifications_not_working"}
+{"text": "Transactional emails are going to spam. How to fix?", "label": "email_notifications_not_working"}
+{"text": "Why did I stop getting billing notification emails?", "label": "email_notifications_not_working"}
+{"text": "I can't upload files; it says 'upload failed'.", "label": "file_upload_error"}
+{"text": "My file upload gets stuck at 99%.", "label": "file_upload_error"}
+{"text": "Why does uploading a CSV cause a server error?", "label": "file_upload_error"}
+{"text": "File size limit exceeded. How can I upload large files?", "label": "file_upload_error"}
+{"text": "Our webhook endpoint returns 500 error when called.", "label": "webhook_error"}
+{"text": "Webhook deliveries are failing with timeout.", "label": "webhook_error"}
+{"text": "Why is my webhook returning 401 even though the token is valid?", "label": "webhook_error"}
+{"text": "The webhook payload is not being received by our server.", "label": "webhook_error"}
+{"text": "When I integrate your Python SDK, I get an import error.", "label": "sdk_issue"}
+{"text": "The SDK documentation says to use v2, but v2 methods don't exist.", "label": "sdk_issue"}
+{"text": "How do I authenticate using the JavaScript SDK?", "label": "sdk_issue"}
+{"text": "SDK crashes when calling listUsers with more than 1000 records.", "label": "sdk_issue"}
+{"text": "I'm trying to import data from another tool but it keeps failing.", "label": "data_import_issue"}
+{"text": "Bulk import gets stuck at 'processing'.", "label": "data_import_issue"}
+{"text": "CSV import fails with 'invalid format' but the file is correct.", "label": "data_import_issue"}
+{"text": "Can I import data from a JSON file instead of CSV?", "label": "data_import_issue"}
+{"text": "The French translation of the app has many errors.", "label": "language_localization"}
+{"text": "I want to contribute a translation for Spanish. How?", "label": "language_localization"}
+{"text": "The UI is not fully translated; some buttons are still in English.", "label": "language_localization"}
+{"text": "Date format in German locale is showing incorrectly.", "label": "language_localization"}
+{"text": "The app logs me out after only 5 minutes of inactivity.", "label": "session_timeout"}
+{"text": "How can I increase the session timeout duration?", "label": "session_timeout"}
+{"text": "Every time I switch tabs, I have to log in again.", "label": "session_timeout"}
+{"text": "Session expired too quickly while I was filling a long form.", "label": "session_timeout"}
+{"text": "I need to whitelist my company's IP range for API access.", "label": "ip_whitelist"}
+{"text": "Our dynamic IP changes frequently; how to handle access control?", "label": "ip_whitelist"}
+{"text": "After enabling IP whitelisting, some team members can't log in.", "label": "ip_whitelist"}
+{"text": "Can I set up different IP whitelists for different apps?", "label": "ip_whitelist"}
+{"text": "We hit rate limit with 429 errors. How to increase the limit?", "label": "rate_limiting"}
+{"text": "What is the current rate limit for basic plans?", "label": "rate_limiting"}
+{"text": "API requests are being throttled; we need higher capacity.", "label": "rate_limiting"}
+{"text": "How to handle 429 Too Many Requests gracefully in our app?", "label": "rate_limiting"}

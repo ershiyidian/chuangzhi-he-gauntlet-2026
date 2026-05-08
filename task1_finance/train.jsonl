@@ -1,0 +1,90 @@
+{"text": "My bank card was stolen on the train and I need to stop it now.", "label": "lost_or_stolen_card"}
+{"text": "I can't find my card anywhere, please help me block it.", "label": "lost_or_stolen_card"}
+{"text": "Someone took my wallet with my debit card inside.", "label": "lost_or_stolen_card"}
+{"text": "My credit card was pickpocketed in the market yesterday.", "label": "lost_or_stolen_card"}
+{"text": "I lost my phone and I'm worried someone can open the banking app.", "label": "lost_or_stolen_phone"}
+{"text": "My mobile was stolen yesterday; how do I secure my account?", "label": "lost_or_stolen_phone"}
+{"text": "Someone snatched my phone on the bus, I need to lock my banking access.", "label": "lost_or_stolen_phone"}
+{"text": "The ATM kept my card and did not return it.", "label": "card_swallowed"}
+{"text": "My card is stuck inside a cash machine.", "label": "card_swallowed"}
+{"text": "The cash machine ate my debit card and wouldn't give it back.", "label": "card_swallowed"}
+{"text": "My card payment was declined at the shop even though I have money.", "label": "declined_card_payment"}
+{"text": "I tried to pay online but the transaction was rejected.", "label": "declined_card_payment"}
+{"text": "Every time I swipe my card at restaurants it gets declined.", "label": "declined_card_payment"}
+{"text": "Online checkout keeps rejecting my card for no reason.", "label": "declined_card_payment"}
+{"text": "The ATM refused my withdrawal request.", "label": "declined_cash_withdrawal"}
+{"text": "I could not take cash out although my balance is enough.", "label": "declined_cash_withdrawal"}
+{"text": "ATM says transaction cannot be processed when I try to withdraw.", "label": "declined_cash_withdrawal"}
+{"text": "I sent money to another account and it is still pending.", "label": "pending_transfer"}
+{"text": "My transfer has not completed yet; it just says processing.", "label": "pending_transfer"}
+{"text": "The money I sent yesterday still shows as pending in the app.", "label": "pending_transfer"}
+{"text": "Another bank says the transfer was sent, but my balance has not changed.", "label": "balance_not_updated_after_bank_transfer"}
+{"text": "A bank transfer should have arrived but I do not see it in my account.", "label": "balance_not_updated_after_bank_transfer"}
+{"text": "Sender confirms the wire went through, but nothing shows on my side.", "label": "balance_not_updated_after_bank_transfer"}
+{"text": "There is a card payment on my statement that I do not recognize.", "label": "card_payment_not_recognised"}
+{"text": "I see a purchase I never made with my card.", "label": "card_payment_not_recognised"}
+{"text": "An unknown charge of $47 appeared on my card statement.", "label": "card_payment_not_recognised"}
+{"text": "My card was used at a store I have never been to.", "label": "card_payment_not_recognised"}
+{"text": "The same card payment appears twice in my transaction list.", "label": "transaction_charged_twice"}
+{"text": "I was charged two times for one purchase.", "label": "transaction_charged_twice"}
+{"text": "Duplicate charge for the same coffee this morning.", "label": "transaction_charged_twice"}
+{"text": "The merchant says they refunded me but I cannot see the refund.", "label": "Refund_not_showing_up"}
+{"text": "My refund is missing from my account.", "label": "Refund_not_showing_up"}
+{"text": "Seller issued a refund three days ago but nothing in my balance.", "label": "Refund_not_showing_up"}
+{"text": "I tried adding money by card but the top-up failed.", "label": "top_up_failed"}
+{"text": "The app rejected my attempt to top up.", "label": "top_up_failed"}
+{"text": "Topping up my account keeps returning an error message.", "label": "top_up_failed"}
+{"text": "Funds were not added after I completed the top-up flow.", "label": "top_up_failed"}
+{"text": "My top-up is still pending and I need the money now.", "label": "pending_top_up"}
+{"text": "I added money but it is stuck as pending.", "label": "pending_top_up"}
+{"text": "Top-up has been pending for over a day, when will it clear?", "label": "pending_top_up"}
+{"text": "Why was I charged a fee for withdrawing my own cash?", "label": "cash_withdrawal_charge"}
+{"text": "ATM charged me an extra fee that I was not expecting.", "label": "cash_withdrawal_charge"}
+{"text": "There is a withdrawal fee on my statement I was not told about.", "label": "cash_withdrawal_charge"}
+{"text": "My card stopped working completely today.", "label": "card_not_working"}
+{"text": "Both contactless and chip are not working on my card.", "label": "card_not_working"}
+{"text": "Card keeps getting declined everywhere I try to use it.", "label": "card_not_working"}
+{"text": "I was charged an unexpected fee for sending money.", "label": "transfer_fee_charged"}
+{"text": "There is a transfer cost on my statement that I did not agree to.", "label": "transfer_fee_charged"}
+{"text": "Why did my wire transfer come with an extra charge?", "label": "transfer_fee_charged"}
+{"text": "The recipient got less money than I sent due to a fee.", "label": "transfer_fee_charged"}
+{"text": "My card expired last month and I need a new one.", "label": "card_expired"}
+{"text": "I tried to use my card but it says card expired.", "label": "card_expired"}
+{"text": "Why was my payment declined due to expired card?", "label": "card_expired"}
+{"text": "Card expiry date passed. How to renew?", "label": "card_expired"}
+{"text": "My card is cracked and the chip doesn't read anymore.", "label": "card_damaged"}
+{"text": "The plastic on my debit card is peeling off.", "label": "card_damaged"}
+{"text": "My card snapped in half accidentally. What should I do?", "label": "card_damaged"}
+{"text": "The magnetic stripe on my card is worn out; stores can't swipe it.", "label": "card_damaged"}
+{"text": "I tried to pay contactless but it said limit exceeded. What does that mean?", "label": "contactless_limit_exceeded"}
+{"text": "Why can't I tap to pay for a large purchase?", "label": "contactless_limit_exceeded"}
+{"text": "My contactless payment was rejected because of a limit.", "label": "contactless_limit_exceeded"}
+{"text": "I usually tap, but today it asked for PIN, saying contactless limit reached.", "label": "contactless_limit_exceeded"}
+{"text": "I forgot my PIN and tried a couple times, now my card is blocked.", "label": "wrong_pin"}
+{"text": "I keep entering the wrong PIN. How can I reset it?", "label": "wrong_pin"}
+{"text": "The ATM says incorrect PIN, but I'm sure it's right.", "label": "wrong_pin"}
+{"text": "Wrong PIN attempts locked my card. Help.", "label": "wrong_pin"}
+{"text": "My account is frozen and I can't access my money.", "label": "account_frozen"}
+{"text": "Why is my bank account suddenly frozen?", "label": "account_frozen"}
+{"text": "I received a notification that my account has been frozen.", "label": "account_frozen"}
+{"text": "All my transactions are blocked because my account is frozen.", "label": "account_frozen"}
+{"text": "I'm abroad and my card is being declined everywhere. Why?", "label": "international_transaction_blocked"}
+{"text": "My international online payment was blocked. How to approve?", "label": "international_transaction_blocked"}
+{"text": "Can you unblock foreign transactions on my card?", "label": "international_transaction_blocked"}
+{"text": "Tried to buy from a US website but transaction was blocked.", "label": "international_transaction_blocked"}
+{"text": "I got an alert about suspicious activity on my account.", "label": "suspicious_activity_alert"}
+{"text": "The bank sent me a fraud alert. Is my card compromised?", "label": "suspicious_activity_alert"}
+{"text": "Why did I receive a message about unusual transactions?", "label": "suspicious_activity_alert"}
+{"text": "There is a warning that someone tried to access my account.", "label": "suspicious_activity_alert"}
+{"text": "My purchase was declined because I exceeded my credit limit.", "label": "credit_limit_exceeded"}
+{"text": "I hit my credit limit and can't make any more payments.", "label": "credit_limit_exceeded"}
+{"text": "Why is my card being declined? Is my credit limit maxed?", "label": "credit_limit_exceeded"}
+{"text": "I need a credit limit increase to complete a large purchase.", "label": "credit_limit_exceeded"}
+{"text": "My automatic top-up didn't work as expected. No money added.", "label": "auto_topup_failed"}
+{"text": "Why did the scheduled top-up fail this month?", "label": "auto_topup_failed"}
+{"text": "Auto top-up was set up but nothing was added. What went wrong?", "label": "auto_topup_failed"}
+{"text": "I had auto-refill enabled but it didn't trigger.", "label": "auto_topup_failed"}
+{"text": "I tried to send $10,000 but the transfer was rejected because of limit.", "label": "transfer_limit_exceeded"}
+{"text": "What is the maximum amount I can transfer in a day?", "label": "transfer_limit_exceeded"}
+{"text": "My wire transfer was blocked due to exceeding daily limit.", "label": "transfer_limit_exceeded"}
+{"text": "I need to raise my transfer limit temporarily.", "label": "transfer_limit_exceeded"}

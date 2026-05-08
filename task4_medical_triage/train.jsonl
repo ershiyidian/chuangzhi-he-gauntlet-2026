@@ -1,0 +1,90 @@
+{"text": "I have chest pain and trouble breathing.", "label": "emergency_symptom"}
+{"text": "My father suddenly fainted and cannot speak clearly.", "label": "emergency_symptom"}
+{"text": "Someone is having a seizure and is not responding.", "label": "emergency_symptom"}
+{"text": "Heavy bleeding from a deep cut that won't stop.", "label": "emergency_symptom"}
+{"text": "I need to book an appointment with a doctor.", "label": "appointment_booking"}
+{"text": "Can I move my clinic visit to next Monday?", "label": "appointment_booking"}
+{"text": "I want to schedule a routine checkup for next month.", "label": "appointment_booking"}
+{"text": "After taking the new medicine I developed a rash.", "label": "medication_side_effect"}
+{"text": "This pill makes me dizzy and nauseous.", "label": "medication_side_effect"}
+{"text": "I started antibiotics and now I have severe stomach pain.", "label": "medication_side_effect"}
+{"text": "I need a refill for my blood pressure medication.", "label": "prescription_refill"}
+{"text": "Can you renew my prescription before it runs out?", "label": "prescription_refill"}
+{"text": "My inhaler is almost empty; please send a new prescription.", "label": "prescription_refill"}
+{"text": "Running low on my diabetes medication; need a refill.", "label": "prescription_refill"}
+{"text": "Are my blood test results available?", "label": "test_result_inquiry"}
+{"text": "I want to understand the lab report from last week.", "label": "test_result_inquiry"}
+{"text": "Have the MRI results come back from the lab yet?", "label": "test_result_inquiry"}
+{"text": "Does my insurance cover this treatment?", "label": "insurance_question"}
+{"text": "I need help with a denied insurance claim.", "label": "insurance_question"}
+{"text": "Will my plan pay for this specialist consultation?", "label": "insurance_question"}
+{"text": "Do you offer the flu shot at this clinic?", "label": "vaccination_query"}
+{"text": "I need to know which vaccines are required for travel.", "label": "vaccination_query"}
+{"text": "Can I get the COVID booster here?", "label": "vaccination_query"}
+{"text": "I've had a headache for three days straight; should I be concerned?", "label": "symptom_inquiry"}
+{"text": "What could cause persistent lower back pain?", "label": "symptom_inquiry"}
+{"text": "My child has had a fever for two days; what should I do?", "label": "symptom_inquiry"}
+{"text": "Is occasional chest tightness during exercise normal?", "label": "symptom_inquiry"}
+{"text": "I need a referral to see a cardiologist.", "label": "referral_request"}
+{"text": "Can my primary doctor refer me to a dermatologist?", "label": "referral_request"}
+{"text": "How do I get a specialist referral through my insurance?", "label": "referral_request"}
+{"text": "How can I get a copy of my medical records?", "label": "medical_records"}
+{"text": "I need to transfer my health records to a new doctor.", "label": "medical_records"}
+{"text": "Can I access my previous visit notes online?", "label": "medical_records"}
+{"text": "Do you offer video consultations?", "label": "telehealth_query"}
+{"text": "Can I have my follow-up appointment virtually?", "label": "telehealth_query"}
+{"text": "Is there an option for a phone consultation instead of in-person?", "label": "telehealth_query"}
+{"text": "I received a bill that doesn't match what my insurance says I owe.", "label": "billing_dispute"}
+{"text": "There is a charge on my medical bill that I don't recognize.", "label": "billing_dispute"}
+{"text": "My EOB shows a different amount than what the clinic billed me.", "label": "billing_dispute"}
+{"text": "I've been feeling very anxious and can't sleep.", "label": "mental_health"}
+{"text": "I think I need to talk to someone about depression.", "label": "mental_health"}
+{"text": "Can you recommend a therapist for stress management?", "label": "mental_health"}
+{"text": "I'm experiencing panic attacks more frequently lately.", "label": "mental_health"}
+{"text": "I think I had an allergic reaction to something I ate.", "label": "allergy_concern"}
+{"text": "Can I get tested for food allergies at your clinic?", "label": "allergy_concern"}
+{"text": "My skin breaks out in hives after eating certain foods.", "label": "allergy_concern"}
+{"text": "What is the recovery time for knee surgery?", "label": "surgery_question"}
+{"text": "I'm scheduled for surgery and have questions about anesthesia.", "label": "surgery_question"}
+{"text": "Do I need to stop taking my medication before the procedure?", "label": "surgery_question"}
+{"text": "How should I prepare for my upcoming gallbladder surgery?", "label": "surgery_question"}
+{"text": "I need to schedule a blood draw for next week.", "label": "lab_test_booking"}
+{"text": "Can I book a fasting glucose test early in the morning?", "label": "lab_test_booking"}
+{"text": "Do I need an appointment for lab work, or walk-in okay?", "label": "lab_test_booking"}
+{"text": "How to book a urine test at your lab?", "label": "lab_test_booking"}
+{"text": "Can I get a second opinion before agreeing to surgery?", "label": "second_opinion"}
+{"text": "I want another doctor to review my diagnosis.", "label": "second_opinion"}
+{"text": "How to arrange a second opinion through your hospital?", "label": "second_opinion"}
+{"text": "Does insurance cover a second opinion consultation?", "label": "second_opinion"}
+{"text": "I need my doctor to sign a disability form for work.", "label": "disability_form"}
+{"text": "Can you help me fill out FMLA paperwork?", "label": "disability_form"}
+{"text": "How long does it take to process disability forms?", "label": "disability_form"}
+{"text": "My employer requires updated medical leave forms.", "label": "disability_form"}
+{"text": "I need a prescription for a wheelchair for my recovery.", "label": "medical_equipment_request"}
+{"text": "How can I get a CPAP machine covered by insurance?", "label": "medical_equipment_request"}
+{"text": "Do you provide home oxygen equipment setup?", "label": "medical_equipment_request"}
+{"text": "I need hospital bed rental for post-surgery at home.", "label": "medical_equipment_request"}
+{"text": "What foods should I avoid if I have high cholesterol?", "label": "dietary_advice"}
+{"text": "Can a nutritionist help me with weight management?", "label": "dietary_advice"}
+{"text": "I need a diet plan for managing type 2 diabetes.", "label": "dietary_advice"}
+{"text": "What is a renal diet? I have kidney issues.", "label": "dietary_advice"}
+{"text": "Is it safe to exercise during the first trimester?", "label": "pregnancy_question"}
+{"text": "What prenatal vitamins do you recommend?", "label": "pregnancy_question"}
+{"text": "I'm pregnant and have morning sickness all day. What helps?", "label": "pregnancy_question"}
+{"text": "When should I schedule my first prenatal visit?", "label": "pregnancy_question"}
+{"text": "My 2-year-old has a fever of 102. Should I go to ER?", "label": "pediatric_fever"}
+{"text": "How to reduce fever in a baby safely?", "label": "pediatric_fever"}
+{"text": "Fever in child lasting 5 days. When to worry?", "label": "pediatric_fever"}
+{"text": "Is it normal for a teething baby to run a fever?", "label": "pediatric_fever"}
+{"text": "How often should I check my blood sugar with type 2 diabetes?", "label": "chronic_disease_management"}
+{"text": "I have COPD and need a management plan for flare-ups.", "label": "chronic_disease_management"}
+{"text": "My hypertension is not controlled with current medication. What next?", "label": "chronic_disease_management"}
+{"text": "Who manages my long-term care for multiple chronic conditions?", "label": "chronic_disease_management"}
+{"text": "I can't fall asleep at night even when tired.", "label": "sleep_disorder"}
+{"text": "Do you offer sleep studies for insomnia?", "label": "sleep_disorder"}
+{"text": "My partner says I stop breathing during sleep.", "label": "sleep_disorder"}
+{"text": "What natural remedies help with restless leg syndrome?", "label": "sleep_disorder"}
+{"text": "Does this clinic offer acupuncture for back pain?", "label": "alternative_therapy"}
+{"text": "I'm interested in chiropractic care. Do you have a practitioner?", "label": "alternative_therapy"}
+{"text": "Can you recommend a licensed massage therapist for medical reasons?", "label": "alternative_therapy"}
+{"text": "Is hypnotherapy available for anxiety treatment?", "label": "alternative_therapy"}
