@@ -1,6 +1,10 @@
 # Chuangzhi HE Gauntlet 2026
 
-[English](README.md)
+[English](README.md) · 简体中文
+
+![Tasks](https://img.shields.io/badge/Tasks-9%20Suites-0969da.svg)
+![Samples](https://img.shields.io/badge/Samples-3%2C209%20JSONL-0f766e.svg)
+![Budget](https://img.shields.io/badge/Input%20Budget-%3C2048%20Tokens-475569.svg)
 
 创智学院 2026 夏令营 Harness Engineering 考核数据集与自建压力测试集。
 
@@ -112,16 +116,14 @@ print(correct / total)
 
 按任务分别统计准确率（而非只看总平均）：不同任务暴露的问题不同，金融高而 OOD 低通常意味着领域过拟合，选择题低通常意味着缺少推理分支，注入任务低通常意味着系统提示与用户文本隔离不足。
 
-## Harness 设计提示
+## Harness 设计要点
 
-- 不要把全部训练样本无差别塞入上下文。考核限制单轮输入 token 小于 2048，需要主动做样本选择与上下文预算控制。
-- 不要只针对官方 DEV 集写死标签或关键词。正式评测包含不同领域、不同标签数量和选择题任务。
-- 对 `text` 中的 “ignore previous instructions”、“SYSTEM says”、“Developer message” 等内容应视为待分类文本，而不是真实指令。
-- 预测结果应约束在当前任务训练集中出现过的候选标签内，并做必要的输出清洗。
-- 对 `task7_mcq` 这类选择题，应允许 LLM 根据题干和选项推理，而不是完全依赖最近邻样本。
+- **上下文预算管理**：单轮输入受限于 2048 token 窗口，建议结合代表性样本检索与紧凑标签摘要控制上下文长度。
+- **跨领域动态归纳**：从 `update(text, label)` 流式样本中动态建立标签语义索引，适配不同领域、标签规模与题型分布。
+- **指令与数据隔离**：将 `text` 严格封装为待分类数据字段，使其中包含的 `"ignore previous instructions"`、`"SYSTEM says"` 等对抗文本不触发指令越权。
+- **候选标签集约束**：将输出空间限制在当前任务训练集已观测到的标签集合内，并配合确定性输出解析。
+- **选择题显式推理**：针对 `task7_mcq` 等题干加选项任务启用选项对比推理分支，弥补纯近邻检索的局限。
 
 ## 来源与说明
 
-`task0_official_dev` 来自创智学院 2026 夏令营 Harness Engineering 考核包中的官方 DEV 集。其余任务为本地自建 Benchmark，用于考核准备和 Harness 迭代诊断。
-
-本仓库仅用于学习、研究与本地评测。正式提交请遵守考核规则：不读取测试集标签，不硬编码公开数据答案。
+`task0_official_dev` 来自创智学院 2026 夏令营 Harness Engineering 考核包官方 DEV 集；`task1_finance` 至 `task8_prompt_injection` 为面向跨领域泛化与注入鲁棒性诊断的自建评测集。本地 `test.jsonl` 保留 `label` 字段用于离线准确率统计，评测循环调用 `predict(text)` 时仅传入 `sample["text"]`。

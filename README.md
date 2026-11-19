@@ -1,6 +1,10 @@
 # Chuangzhi HE Gauntlet 2026
 
-[中文版](README.zh-CN.md)
+English · [简体中文](README.zh-CN.md)
+
+![Tasks](https://img.shields.io/badge/Tasks-9%20Suites-0969da.svg)
+![Samples](https://img.shields.io/badge/Samples-3%2C209%20JSONL-0f766e.svg)
+![Budget](https://img.shields.io/badge/Input%20Budget-%3C2048%20Tokens-475569.svg)
 
 The Chuangzhi Academy 2026 summer-camp Harness Engineering evaluation dataset, plus a self-built stress-test suite.
 
@@ -112,16 +116,14 @@ print(correct / total)
 
 Score accuracy per task rather than looking at the overall average alone: different tasks expose different problems — high finance accuracy with low OOD usually means domain overfitting, low multiple-choice usually means a missing reasoning branch, low injection-task scores usually mean insufficient isolation between system prompts and user text.
 
-## Harness Design Tips
+## Harness Design Principles
 
-- Don't dump all training samples into context indiscriminately. The evaluation caps single-turn input below 2048 tokens — budget your samples and compress context deliberately.
-- Don't hardcode labels or keywords against the official DEV set only. The real evaluation spans different domains, label counts, and multiple-choice tasks.
-- Treat "ignore previous instructions", "SYSTEM says", "Developer message" inside `text` as text to classify, not as real instructions.
-- Constrain predictions to candidate labels seen in the current task's training set, and clean outputs as needed.
-- For multiple-choice tasks like `task7_mcq`, let the LLM reason from the stem and options instead of relying purely on nearest-neighbor samples.
+- **Token-Budgeted Retrieval**: Single-turn prompts operate within a 2,048-token ceiling—combine selective few-shot retrieval with compact label summaries.
+- **Task-Agnostic Label Induction**: Induce label semantics dynamically from streamed `update(text, label)` examples across varying label cardinalities and domains.
+- **Instruction-Data Isolation**: Encapsulate `text` strictly as untrusted input data so embedded strings such as `"ignore previous instructions"` or `"SYSTEM says"` cannot override classification directives.
+- **Constrained Output Decoding**: Restrict final predictions to the active task's observed training label set with deterministic output normalization.
+- **Adaptive MCQ Reasoning**: Route structured stem-and-option inputs (such as `task7_mcq`) through explicit option-comparison reasoning alongside retrieved exemplars.
 
 ## Provenance
 
-`task0_official_dev` comes from the official DEV set in the Chuangzhi Academy 2026 summer-camp Harness Engineering evaluation kit. The remaining tasks are a self-built local benchmark for evaluation prep and harness iteration diagnostics.
-
-This repository is for learning, research, and local evaluation only. For real submissions, follow the evaluation rules: don't read test labels, don't hardcode answers from public data.
+`task0_official_dev` originates from the official DEV split of the Chuangzhi Academy 2026 Harness Engineering evaluation kit; `task1_finance` through `task8_prompt_injection` form an extended diagnostic benchmark for out-of-distribution generalization and prompt-injection stress testing. Public `test.jsonl` splits retain ground-truth `label` fields for offline scoring—evaluation loops should pass only `sample["text"]` into `predict(text)`.
